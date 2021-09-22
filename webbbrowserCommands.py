@@ -1,8 +1,5 @@
 import webbrowser
-import time
+yes = True
 
-webbrowser.open("www.google.com")
-
-time.sleep(5)
-
-webbrowser.open("www.lego.com")
+while yes == True:
+    webbrowser.open("www.google.com")
